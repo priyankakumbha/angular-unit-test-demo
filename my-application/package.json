@@ -1,0 +1,21 @@
+{
+  "name": "my-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "karma-chrome-launcher": "^0.2.2",
+    "jasmine-core": "^2.4.1",
+    "karma-jasmine": "^0.3.7",
+    "karma": "^0.13.19"
+  },
+  "devDependencies": {
+    "karma": "^0.13.19",
+    "karma-jasmine": "^0.3.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

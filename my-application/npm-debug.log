@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'ng-route' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json my-application@1.0.0 No description
+6 warn package.json my-application@1.0.0 No repository field.
+7 warn package.json my-application@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'ng-route', null ]
+10 verbose cache add name=undefined spec="ng-route" args=["ng-route",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'ng-route',
+11 verbose parsed url   path: 'ng-route',
+11 verbose parsed url   href: 'ng-route' }
+12 silly lockFile 14fabfbe-ng-route ng-route
+13 verbose lock ng-route C:\Users\shivanand\AppData\Roaming\npm-cache\14fabfbe-ng-route.lock
+14 silly lockFile 14fabfbe-ng-route ng-route
+15 silly lockFile 14fabfbe-ng-route ng-route
+16 verbose addNamed [ 'ng-route', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile d71699b5-ng-route ng-route@
+19 verbose lock ng-route@ C:\Users\shivanand\AppData\Roaming\npm-cache\d71699b5-ng-route.lock
+20 silly addNameRange { name: 'ng-route', range: '*', hasData: false }
+21 verbose request where is /ng-route
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id a3b75ebc91f28dfe
+24 verbose url raw /ng-route
+25 verbose url resolving [ 'https://registry.npmjs.org/', './ng-route' ]
+26 verbose url resolved https://registry.npmjs.org/ng-route
+27 verbose request where is https://registry.npmjs.org/ng-route
+28 info trying registry request attempt 1 at 10:14:13
+29 http GET https://registry.npmjs.org/ng-route
+30 http 404 https://registry.npmjs.org/ng-route
+31 silly registry.get cb [ 404,
+31 silly registry.get   { 'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '2',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Sat, 13 Feb 2016 00:14:02 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-syd1627-SYD',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1455322441.188038,VS0,VE916' } ]
+32 silly lockFile d71699b5-ng-route ng-route@
+33 silly lockFile d71699b5-ng-route ng-route@
+34 error 404 Not Found
+34 error 404
+34 error 404 'ng-route' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'my-application'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Windows_NT 6.2.9200
+36 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "ng-route"
+37 error cwd E:\Thinkful\Angular\angular-unit-test-demo\my-application
+38 error node -v v0.10.32
+39 error npm -v 1.4.28
+40 error code E404
+41 verbose exit [ 1, true ]
